@@ -14,11 +14,11 @@ return(
             </LogoPai>
             <div>
                 <MenuItens>
-                    <li><Link to="/">Home</Link></li>
+                    <li><Link to="/home">Home</Link></li>
                     <li><Link to="/modaMasculina">Moda masculina</Link></li>
-                    <li><Link to="/">Moda feminina</Link></li>
-                    <li><Link to="/">Moda infantil</Link></li>
-                    <li><Link to="/">Sobre</Link></li>
+                    <li><Link to="/modaFeminina">Moda feminina</Link></li>
+                    <li><Link to="/modaInfantil">Moda infantil</Link></li>
+                    <li><Link to="/sobre">Sobre</Link></li>
                 </MenuItens>
             </div>
         </displayMenu>
