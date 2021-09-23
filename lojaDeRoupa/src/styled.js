@@ -100,6 +100,33 @@ export const Card = styled.div`
     margin: 3%;
 `
 
+export const CardMasculino = styled.div`
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #d8d7d7;
+    border-radius: 10px;
+    box-shadow: 9px 5px 25px -2px rgba(0,0,0,0.73);
+    margin: 3%;
+`
+
+export const CardFeminino = styled.div`
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #d8d7d7;
+    border-radius: 10px;
+    box-shadow: 9px 5px 25px -2px rgba(0,0,0,0.73);
+    margin: 3%;
+`
+
+export const CardInfantil = styled.div`
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #d8d7d7;
+    border-radius: 10px;
+    box-shadow: 9px 5px 25px -2px rgba(0,0,0,0.73);
+    margin: 3%;
+`
+
 export const TopCardImg = styled.img`
     width: 100%;
     height: 100%;
@@ -113,6 +140,7 @@ export const BodyCard = styled.div`
     align-items: center;
     padding-top: 5%;
     padding-bottom: 5%;
+    text-align: center;
     
     h2{
         margin-bottom: 2%;
@@ -121,6 +149,7 @@ export const BodyCard = styled.div`
         margin-left: 3%;
         margin-right: 3%;
     }
+    font-size: 1em;
 `
 
 
