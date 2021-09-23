@@ -1,6 +1,6 @@
 import React from 'react'
 import Logo from '../img/sorveteria.png'
-import {Head, Image} from '../../styled'
+import {Head, Image, Text} from '../../styled'
 
 export default function Cabecalho () {
 
@@ -10,7 +10,7 @@ export default function Cabecalho () {
           <Head>
                <Image src={Logo} alt="SORVETERIA ICE CREAM" />
                <h1>Sorveteria IceLand</h1>
-               <p>Keep calm and let it go</p>
+               <Text>Keep calm and let it go</Text>
           </Head>
        </>
 )}
