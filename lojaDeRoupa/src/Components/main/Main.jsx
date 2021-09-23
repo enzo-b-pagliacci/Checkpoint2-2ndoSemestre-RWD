@@ -6,7 +6,7 @@ import ModaMasculina from '../pgPrincipais/modaMasculina/ModaMasculina'
 import ModaFeminina from '../pgPrincipais/modaFeminina/ModaFeminina'
 import ModaInfantil from '../pgPrincipais/modaInfantil/ModaInfantil'
 import Sobre from '../pgPrincipais/sobre/Sobre'
-
+import Footer from '../footer/Footer'
 export default function Main() {
 
    return(
@@ -24,6 +24,8 @@ export default function Main() {
 
       </Switch>
 
-      {/* rodapé  */}
+      <Footer>
+
+      </Footer>
       </>
 )}
