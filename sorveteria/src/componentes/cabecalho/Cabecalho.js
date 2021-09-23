@@ -9,9 +9,8 @@ export default function Cabecalho () {
        <>
        <div style={{backgroundColor: '#f28d11'}}>
             <DivCabe>                   
-                  <TituloIce ><FontAwesomeIcon style={{color: 'white', fontSize:'40px'}}icon={faIceCream} />   Sorveteria IceLand</TituloIce>    
+                  <TituloIce><FontAwesomeIcon style={{color: 'white', fontSize:'40px'}}icon={faIceCream} />   Sorveteria IceLand</TituloIce>    
             </DivCabe>
-
             <div style={{textAlign: 'center'}}>       
                <Text>Keep calm and let it go</Text>
             </div>
