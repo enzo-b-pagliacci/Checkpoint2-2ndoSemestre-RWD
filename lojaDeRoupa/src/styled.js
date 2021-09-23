@@ -39,3 +39,7 @@ export const MenuItens = styled.ul`
     justify-content: space-around;
     list-style: none;
 `
+
+export const Footer = styled.div`
+    background-color: #b1b2b2;
+`
