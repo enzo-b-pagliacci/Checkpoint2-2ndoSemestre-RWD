@@ -6,40 +6,136 @@ export const ElHtml = styled.html`
         text-decoration: none;
         color: black;
     }
+    a:hover {
+        color: #ee081e;
+    }
    
 `
-export const oBody = styled.body`
-    margin: 0;
-    padding: 0;
-    
-`
+
 
 export const Menu = styled.nav`
     width: 100%;
-    background-color: #b1b2b2;
+    background: rgb(216,215,215);
+background: linear-gradient(0deg, rgba(216,215,215,1) 0%, rgba(177,178,178,1) 100%);
+    display: flex;
+    flex-direction: row;
 `
 
 export const LogoSt = styled.img`
     height: 100%;
-    width: 100%;
+    width: 30%;
 `
 
 export const LogoPai = styled.div`
-    width: 6%;
     margin-left: 3%;
+    margin-right: 0;
+    flex-grow: 1;
+    
 `
 
-export const displayMenu = styled.div`
-    display: flex;
-    justify-content: space-between;
-`
 export const MenuItens = styled.ul`
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    margin-top: 3%;
     list-style: none;
+    li{
+        font-size: 20px;
+    }
+    
 `
 
-export const Footer = styled.div`
-    background-color: #b1b2b2;
+export const MenuItensRoda = styled.ul`
+    display: flex;
+    flex-direction: column;
+    align-items: space-around;
+    margin-top: 3%;
+    list-style: none;
+    li{
+        font-size: 20px;
+    }
+    
 `
+
+export const Footer1 = styled.footer`
+   background: rgb(216,215,215);
+    background: linear-gradient(0deg, rgba(216,215,215,1) 0%, rgba(178,179,179,1) 100%);
+    
+`
+
+export const Menulinks = styled.div`
+    flex-grow: 3;
+`
+export const MenulinksRoda = styled.div`
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+`
+
+export const Contato = styled.div`
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    padding-right: 2%;
+    padding-top: 1%;
+`
+
+export const Img1Home = styled.img`
+    width: 100%;
+    height: 100%;
+`
+
+export const DisplayColecoes = styled.div`
+    display: flex;
+    flex-direction: row;
+`
+
+export const Card = styled.div`
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #d8d7d7;
+    border-radius: 10px;
+    box-shadow: 9px 5px 25px -2px rgba(0,0,0,0.73);
+    margin: 3%;
+`
+
+export const TopCardImg = styled.img`
+    width: 100%;
+    height: 100%;
+`
+
+
+
+export const BodyCard = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    
+    h2{
+        margin-bottom: 2%;
+    }
+    p{
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+`
+
+
+
+export const SobreNosDisplay = styled.div`
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 5%;
+    h2{
+        margin-bottom: 2%;
+    }
+    p{
+        text-align: justify;
+        margin-bottom: 1%;
+    }
+`
+

@@ -9,23 +9,22 @@ import Sobre from '../pgPrincipais/sobre/Sobre'
 import Footer from '../footer/Footer'
 export default function Main() {
 
-   return(
-      <>
-      <Header/>
-      <Switch>
-        <Route exact path="/">
-            <Redirect to="/home" />
-        </Route>
-        <Route path="/home" component={Home}/>
-        <Route path="/modaMasculina" component={ModaMasculina}/>
-        <Route path="/modaFeminina" component={ModaFeminina}/>
-        <Route path="/modaInfantil" component={ModaInfantil}/>
-        <Route path="/sobre" component={Sobre}/>
+return(
+<>
+    <Header />
+    <Switch>
+      <Route exact path="/">
+        <Redirect to="/home" />
+      </Route>
+      <Route path="/home" component={Home} />
+      <Route path="/modaMasculina" component={ModaMasculina} />
+      <Route path="/modaFeminina" component={ModaFeminina} />
+      <Route path="/modaInfantil" component={ModaInfantil} />
+      <Route path="/sobre" component={Sobre} />
 
-      </Switch>
+    </Switch>
+  <Footer />
 
-      <Footer>
 
-      </Footer>
-      </>
+</>
 )}

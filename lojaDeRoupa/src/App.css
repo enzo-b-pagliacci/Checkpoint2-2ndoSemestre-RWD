@@ -1,8 +1,5 @@
-/* prof através do styled component eu não consigo resetar as margins do body  */
-/* tentei criando através deste css e linkando no index.html mas tbm não deu. Ele só pegava se for no style  */
-/* deixei registrado que tentei de todas as maneiras  */
-
-body{
+*{
     margin: 0;
     padding: 0;
 }
+
