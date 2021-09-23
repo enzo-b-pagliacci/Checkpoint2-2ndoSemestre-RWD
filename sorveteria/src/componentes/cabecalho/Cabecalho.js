@@ -1,16 +1,21 @@
 import React from 'react'
-import Logo from '../img/sorveteria.png'
-import {Head, Image, Text} from '../../styled'
-
+import {DivCabe, Text, TituloIce} from '../../styled'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faIceCream } from '@fortawesome/free-solid-svg-icons'
 export default function Cabecalho () {
 
 
    return(
        <>
-          <Head>
-               <Image src={Logo} alt="SORVETERIA ICE CREAM" />
-               <h1>Sorveteria IceLand</h1>
+       <div style={{backgroundColor: '#f28d11'}}>
+            <DivCabe>                   
+                  <TituloIce ><FontAwesomeIcon style={{color: 'white', fontSize:'40px'}}icon={faIceCream} />   Sorveteria IceLand</TituloIce>    
+            </DivCabe>
+
+            <div style={{textAlign: 'center'}}>       
                <Text>Keep calm and let it go</Text>
-          </Head>
+            </div>
+         </div>
+         
        </>
 )}
