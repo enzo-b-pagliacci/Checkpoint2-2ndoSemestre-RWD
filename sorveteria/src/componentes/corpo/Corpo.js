@@ -87,10 +87,20 @@ color: #145bff;
 `
 export const DivDis = styled.div`
 display: flex;
+margin-left:10%;
 `
 
 export const Ul = styled.ul`
-color: black;
+/* margin-left:5%; */
+color: #000;
+`
+
+export const Li = styled.li`
+color: #000;
+`
+
+export const SeUl = styled.div`
+margin-left:20%;
 `
 
 export default function Corpo() {
@@ -102,34 +112,39 @@ export default function Corpo() {
       <H2>Sabores</H2>
       <DivDis>
       <Ul>
-          <li>Uva</li>
-          <li>Limão</li>
-          <li>Morango</li>
-          <li>Chocolate</li>
-          <li>Creme</li>
-          <li>Melancia</li>
+          <Li>Uva</Li>
+          <Li>Limão</Li>
+          <Li>Moran</Li>
+          <Li>Choco</Li>
+          <Li>Creme</Li>
+          <Li>Melan</Li>
       </Ul>
+      <SeUl>
       <Ul>
-          <li>Milho</li>
-          <li>Algodão doce</li>
-          <li>Groselha</li>
-          <li>Caju</li>
-          <li>Banana</li>
-          <li>Maçã verde</li>
+          <Li>Milho</Li>
+          <Li>Algodão doce</Li>
+          <Li>Groselha</Li>
+          <Li>Caju</Li>
+          <Li>Banana</Li>
+          <Li>Maçã verde</Li>
       </Ul>
+      </SeUl>
       </DivDis>
       </Card1>
+
+
       <Card2>
       <H2>Acompanhamentos</H2>
       <DivDis>
       <Ul>
-          <li>Cereja</li>
-          <li>Calda de Chocolate</li>
-          <li>Bolacha</li>
-          <li>Granulado</li>
-          <li>Leite condensado</li>
-          <li>Leite em pó</li>
+          <Li>Cereja</Li>
+          <Li>Calda de Chocolate</Li>
+          <Li>Bolacha</Li>
+          <Li>Granulado</Li>
+          <Li>Leite condensado</Li>
+          <Li>Leite em pó</Li>
       </Ul>
+      
       </DivDis>
       </Card2>
       </TudoCorpo>
