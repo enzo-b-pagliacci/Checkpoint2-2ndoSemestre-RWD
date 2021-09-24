@@ -1,5 +1,5 @@
 import React from 'react'
-import { DisplayColecoes, TopCardImg, BodyCard, CardInfantil } from '../../../styled'
+import { DisplayColecoes, TopCardImg, BodyCard, CardInfantil, BotaoCompra } from '../../../styled'
 import PecaInfantil1 from '../../img/PecaInfantil1.png'
 import PecaInfantil2 from '../../img/PecaInfantil2.png'
 
@@ -13,6 +13,7 @@ export default function ModaInfantil() {
                <BodyCard>
                   <h2>calça infantil jogger de moletom com recortes preta</h2>
                   <p>tamanhos: 1, 2, 3, 4, 5</p>
+                  <BotaoCompra>Comprar agora</BotaoCompra>
                </BodyCard>
             </CardInfantil>
 
@@ -21,6 +22,7 @@ export default function ModaInfantil() {
                <BodyCard>
                   <h2>calça infantil jogger com bolsos preta</h2>
                   <p>tamanhos: 1, 2, 3, 4, 5</p>
+                  <BotaoCompra>Comprar agora</BotaoCompra>
                </BodyCard>
             </CardInfantil>
          </DisplayColecoes>

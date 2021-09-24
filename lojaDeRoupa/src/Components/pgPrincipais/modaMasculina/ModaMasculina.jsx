@@ -1,5 +1,5 @@
 import React from 'react'
-import { Img1Home, DisplayColecoes, TopCardImg, BodyCard, CardMasculino, } from '../../../styled'
+import { BotaoCompra, DisplayColecoes, TopCardImg, BodyCard, CardMasculino, } from '../../../styled'
 import ImgMasculina from '../../img/modaMasculina.jpg'
 import PecaMasc1 from '../../img/PecaMasc1.png'
 import PecaMasc2 from '../../img/PecaMasc2.png'
@@ -16,6 +16,7 @@ export default function ModaMasculina() {
                <BodyCard>
                   <h2>Camiseta Longa Neo-Tokyo – Branco</h2>
                   <p>tamanhos: P, M, G, GG, XG, XXG</p>
+                  <BotaoCompra>Comprar agora</BotaoCompra>
                </BodyCard>
             </CardMasculino>
 
@@ -24,6 +25,7 @@ export default function ModaMasculina() {
                <BodyCard>
                   <h2>Camiseta Longa Daring – Preto</h2>
                   <p>tamanhos: P, M, G, GG, XG, XXG</p>
+                  <BotaoCompra>Comprar agora</BotaoCompra>
                </BodyCard>
             </CardMasculino>
          </DisplayColecoes>
@@ -33,6 +35,7 @@ export default function ModaMasculina() {
                <BodyCard>
                   <h2>Camiseta Longa Pill – Akira</h2>
                   <p>tamanhos: P, M, G, GG, XG, XXG</p>
+                  <BotaoCompra>Comprar agora</BotaoCompra>
                </BodyCard>
             </CardMasculino>
 
@@ -41,6 +44,7 @@ export default function ModaMasculina() {
                <BodyCard>
                   <h2>Camiseta Longa Tech – Preto</h2>
                   <p>tamanhos: P, M, G, GG, XG, XXG</p>
+                  <BotaoCompra>Comprar agora</BotaoCompra>
                </BodyCard>
             </CardMasculino>
          </DisplayColecoes>
