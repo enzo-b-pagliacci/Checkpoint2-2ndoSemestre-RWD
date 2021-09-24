@@ -1,6 +1,6 @@
 ##   Checkpont2 2° semestre (RWD)
 <div align="center">
-<img src="https://github.com/enzo-b-pagliacci/Checkpont1-2ndoSemestre-REACT/blob/main/checkpoint-1/src/components/img/logoCP.PNG" alt="logo do site fictício" ></img>
+<img src="https://github.com/enzo-b-pagliacci/Checkpoint2-2ndoSemestre-RWD/blob/main/ImagesReadme/logo.PNG" alt="logo react" ></img>
 </div>
 <h4 align="center"> 
 	🚧 🚀 Concluido 🚧
@@ -10,10 +10,13 @@
 <p>Construir uma aplicação react utilizando um conjunto de componentes, routes e styled components.</p>
 
 #### Esperado:
-<img src="https://github.com/enzo-b-pagliacci/Checkpont1-2ndoSemestre-REACT/blob/main/checkpoint-1/src/components/img/original.png" alt="img orginial do professor"></img>
+<img src="https://github.com/enzo-b-pagliacci/Checkpoint2-2ndoSemestre-RWD/blob/main/ImagesReadme/ex1.PNG" alt="img orginial do professor"></img>
+<img src="https://github.com/enzo-b-pagliacci/Checkpoint2-2ndoSemestre-RWD/blob/main/ImagesReadme/ex2.PNG" alt="img orginial do professor"></img>
 
 #### Resultado: 
-<img src="https://github.com/enzo-b-pagliacci/Checkpont1-2ndoSemestre-REACT/blob/main/checkpoint-1/src/components/img/layout.png" alt="img do resultado"></img>
+<img src="https://github.com/enzo-b-pagliacci/Checkpoint2-2ndoSemestre-RWD/blob/main/ImagesReadme/1-1.png" alt="img do resultado"></img>
+<img src="https://github.com/enzo-b-pagliacci/Checkpoint2-2ndoSemestre-RWD/blob/main/ImagesReadme/2-1.png" alt="img do resultado"></img>
+<img src="https://github.com/enzo-b-pagliacci/Checkpoint2-2ndoSemestre-RWD/blob/main/ImagesReadme/2-2.png" alt="img do resultado"></img>
 
 ## Contribuitors 💻
 <table>
