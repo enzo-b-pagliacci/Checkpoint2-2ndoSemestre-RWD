@@ -1,5 +1,5 @@
 import React from 'react'
-import { DisplayColecoes, TopCardImg, BodyCard, CardFeminino } from '../../../styled'
+import { DisplayColecoes, TopCardImg, BodyCard, CardFeminino, BotaoCompra } from '../../../styled'
 import PecaFem1 from '../../img/PecaFem1.png'
 import PecaFem2 from '../../img/PecaFem2.png'
 import PecaFem3 from '../../img/PecaFem3.png'
@@ -15,6 +15,7 @@ export default function ModaFeminina() {
                <BodyCard>
                   <h2>Icon – Branco e Vermelho</h2>
                   <p>tamanhos: P, M, G, GG, XG, XXG</p>
+                  <BotaoCompra>Comprar agora</BotaoCompra>
                </BodyCard>
             </CardFeminino>
 
@@ -23,6 +24,7 @@ export default function ModaFeminina() {
                <BodyCard>
                   <h2>Camiseta Longa Back-to-Back- Branco</h2>
                   <p>tamanhos: P, M, G, GG, XG, XXG</p>
+                  <BotaoCompra>Comprar agora</BotaoCompra>
                </BodyCard>
             </CardFeminino>
          </DisplayColecoes>
@@ -32,6 +34,7 @@ export default function ModaFeminina() {
                <BodyCard>
                   <h2>Camiseta Longa No Love – Preto</h2>
                   <p>tamanhos: P, M, G, GG, XG, XXG</p>
+                  <BotaoCompra>Comprar agora</BotaoCompra>
                </BodyCard>
             </CardFeminino>
 
@@ -40,6 +43,7 @@ export default function ModaFeminina() {
                <BodyCard>
                   <h2>Camiseta Longa Bad Choice – Branco</h2>
                   <p>tamanhos: P, M, G, GG, XG, XXG</p>
+                  <BotaoCompra>Comprar agora</BotaoCompra>
                </BodyCard>
             </CardFeminino>
          </DisplayColecoes>

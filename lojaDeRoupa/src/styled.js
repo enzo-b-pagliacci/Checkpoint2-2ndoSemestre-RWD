@@ -168,3 +168,12 @@ export const SobreNosDisplay = styled.div`
     }
 `
 
+export const BotaoCompra = styled.button`
+    background-color: #ee081e;
+    border: 1px solid #ee081e;
+    border-radius: 5px; 
+    padding: 3%;
+    margin-top: 5%;
+    font-weight: bold;
+`
+
