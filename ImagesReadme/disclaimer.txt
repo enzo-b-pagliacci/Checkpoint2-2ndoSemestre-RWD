@@ -1,0 +1,1 @@
+Imagens apenas para o Readme do git, o conteúdo pedido pelo professor está dentro de suas devidas pastas "sorveteria" e "lojaDeRoupa".
